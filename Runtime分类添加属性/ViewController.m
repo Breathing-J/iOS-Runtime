@@ -20,7 +20,7 @@
     self.myButton.myValue = 10;
 }
 - (IBAction)myBtnClick:(UIButton *)sender {
-    NSLog(@"%ld",sender.myValue);
+    NSLog(@"自定义的值:%d",sender.myValue);
 }
 
 

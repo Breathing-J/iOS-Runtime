@@ -11,6 +11,7 @@ static const char * MYVALUE = "MYVALUE";
 @implementation UIButton (MyButton)
 
 - (void)setMyValue:(NSInteger)myValue{
+    //简书介绍地址:https://www.jianshu.com/p/d939ed2fc20f
     objc_setAssociatedObject(self, MYVALUE,@(myValue), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 - (NSInteger)myValue{
